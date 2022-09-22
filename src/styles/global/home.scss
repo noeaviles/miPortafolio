@@ -1,0 +1,13 @@
+.Home {
+    width: 100%;
+    position: relative;
+}
+.Home-main{
+    width: 100%;
+}
+@include breakpoint('medium-tablet') {
+    .Home {
+        display: flex;
+    }
+
+}

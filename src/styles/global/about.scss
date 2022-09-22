@@ -1,0 +1,77 @@
+.About {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem 0.5rem;
+}
+
+.About-text {
+    width: 100%;
+}
+.About-titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight:900;
+    margin-bottom: 2rem;
+}
+.About-name {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.About-red {
+    color: rgb(184, 8, 8);
+    font-weight: 600;
+}
+.About-p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.About-personalInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.About-btn {
+    color: #fff;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(184, 8, 8);
+    border-radius: 15px;
+    padding: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.About-lenguage {
+    width: 100%;
+}
+.About-h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: rgb(184, 8, 8);
+}
+.About-tool {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.About-icon {
+    width: 25%;
+    height: 100px;
+    img {
+        max-width: 100%;
+    }
+}

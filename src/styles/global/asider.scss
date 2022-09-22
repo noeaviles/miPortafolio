@@ -1,0 +1,185 @@
+.Asider {
+     width: 100%;
+     display: flex;
+     background-color: black;
+     flex-direction: column;
+  }
+.Asider-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Asider-info {
+    width: 200px;
+    display: flex;
+    font-size: helvetica;
+    margin: 10px 10px;
+    flex-grow: 1;
+}
+.Asider-logo {
+    width: 90%;
+}
+
+.Asider-picture{
+    display: none;
+}
+
+.Asider-title {
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    margin-right:1rem ;
+}
+
+.Asider-socialMedia {
+    display: flex;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+    :hover{
+        color:#fff;
+    }
+}
+
+.Asider-icono {
+    margin: 5px;
+}
+
+.Asider-nav {
+    padding: 1rem;
+}
+.Asider-menu {
+    font-size: 28px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.Asider-ul{
+    width: 100%;
+    color: #fff;
+    -webkit-transition: all 0.7s 0s ease;
+    -moz-transition: all 0.7s 0s ease;
+    -o-transition: all 0.7s 0s ease;
+    transition: all 0.7s 0s ease;
+    height: 200px;
+    :hover{
+        color:rgb(184, 8, 8);
+    }
+}
+
+.Asider-ulHidden {
+    -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
+    -o-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Asider-li {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 0.5px solid rgb(73, 72, 72);
+    cursor: pointer;
+   
+}
+
+.Asider-isActive {
+    color: rgb(184, 8, 8);
+}
+
+
+@include breakpoint('medium-simple') {
+
+
+}
+
+@include breakpoint('medium') {
+    
+}
+
+@include breakpoint('medium-tablet') {
+    .Asider {
+        width: 250px;
+        position: relative;
+   }
+   .Asider-container {
+    position:sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+   }
+   .Asider-info {
+       flex-direction: column;
+       flex-grow: 0;
+   }
+   .Asider-logo {
+       width: 100%;
+   }
+   
+   .Asider-picture{
+       display: flex;
+       width: 200px;
+       height: 200px;
+       background-image: url('../../assets/logo.jpg');
+       background-repeat: no-repeat;
+       background-position: center;
+       border-radius: 50%;
+       border: 8px solid rgb(85, 85, 85);
+       margin-bottom: 15px;
+       background-size: cover;
+   }
+   
+   .Asider-title {
+      width: 100%;
+      text-align: center;
+      margin-right: 0px;
+   }
+   
+   .Asider-socialMedia {
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+       order: 3;
+   }
+   
+   .Asider-icono {
+    margin: 0 10px;
+   }
+   
+   .Asider-nav {
+      display: none;
+   }
+   .Asider-menu {
+       display: none;
+   }
+   .Asider-ul, .Asider-ulHidden{
+    width: 100%;
+    color: #fff;
+    -webkit-transition: all 0.7s 0s ease;
+    -moz-transition: all 0.7s 0s ease;
+    -o-transition: all 0.7s 0s ease;
+    transition: all 0.7s 0s ease;
+    height: 200px;
+    :hover{
+        color:rgb(184, 8, 8);
+    }
+}
+
+    
+   .Asider-li {
+       width: 100%;
+       margin-bottom: 0.5rem;
+       padding: 0.5rem;
+       border-bottom: none;
+       text-align: center;
+   }
+   
+   .Asider-isActive {
+       color: rgb(184, 8, 8);
+   }
+}
