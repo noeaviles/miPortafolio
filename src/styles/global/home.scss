@@ -5,6 +5,14 @@
 .Home-main{
     width: 100%;
 }
+.Snipper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+}
 @include breakpoint('medium-tablet') {
     .Home {
         display: flex;

@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 3rem 0.5rem;
+    padding: 5rem 0.5rem;
 }
 
 .About-text {
@@ -17,6 +17,9 @@
     font-weight:900;
     margin-bottom: 2rem;
 }
+.About-content {
+    width: 100%;
+}    
 .About-name {
     width: 100%;
     font-size: 25px;
@@ -69,9 +72,61 @@
     gap: 50px;
 }
 .About-icon {
-    width: 25%;
+    width: 100px;
     height: 100px;
     img {
         max-width: 100%;
     }
 }
+@include breakpoint('medium-simple') {
+    .About-p {
+        text-align: justify;
+        padding: 0 1rem;
+    }
+    .About-icon {
+        width: 65px;
+        height: 65px;
+    }
+     .About-personalInfo {
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 1rem;
+    }
+
+}
+@include breakpoint('medium-tablet') {
+   
+
+    .About-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+@include breakpoint('medium-high') {
+    .About-content {
+        display: flex;
+    }    
+    .About-description {
+        width: 65%;
+        padding: 3rem;
+    }
+    .About-personalInfo {
+        width: 35%;
+    }
+    .About-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@include breakpoint('large') {
+    .About-tool {
+        padding: 0 8rem;
+     
+    }
+}
+

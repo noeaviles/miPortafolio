@@ -17,14 +17,18 @@ const About = () => {
 
       <div className="About-text">
           <h2 className="About-titulo">Acerca de mi</h2>
-          <h3 className='About-name'>Soy <span className='About-red'>Noe Aviles</span> un fronted developer</h3>
-          <p className='About-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae esse veniam ab sequi vero atque beatae. Magni a neque qui cum dolore nisi debitis eius at, tempora consequuntur harum facilis!</p>
-          <p className='About-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laudantium in aspernatur quibusdam minus at exercitationem aliquam sapiente eligendi nihil, </p>
+          <div className="About-content">
+          <div className="About-description">
+            <h3 className='About-name'>Soy <span className='About-red'>Noe Aviles</span> un fronted developer</h3>
+            <p className='About-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae esse veniam ab sequi vero atque beatae. Magni a neque qui cum dolore nisi debitis eius at, tempora consequuntur harum facilis!</p>
+            <p className='About-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laudantium in aspernatur quibusdam minus at exercitationem aliquam sapiente eligendi nihil, </p>
+          </div>
           <div className='About-personalInfo'>
             <p><span className='About-red'>Correo:</span> noe.alexander.aviles@gmail.com</p>
             <div className="About-btn">Download CV</div>
           </div>
-       </div>
+          </div>
+      </div>
 
        <div className='About-lenguage'>
            <h4 className='About-h4'>Lenguajes y herramientas</h4>
