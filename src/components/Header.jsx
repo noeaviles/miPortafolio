@@ -3,7 +3,7 @@ import Slider from './Slider'
 
 const Header = () => {
   return (
-    <header className='Header'>
+    <header className='Header' id="hero">
       <Slider/>
     </header>
   )

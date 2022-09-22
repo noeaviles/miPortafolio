@@ -13,7 +13,7 @@ import photoshop from '../assets/photoshop.png'
 
 const About = () => {
   return (
-    <div className='About'>
+    <div className='About' id="aboutMe">
 
       <div className="About-text">
           <h2 className="About-titulo">Acerca de mi</h2>

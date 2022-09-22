@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import logo from '../assets/logo.jpg'
+import {Link} from 'react-scroll'
 
 const Asider = () => {
     const [menuActivo, setMenuActivo] = useState(false)
@@ -32,10 +32,10 @@ const Asider = () => {
                     </div>
                 </nav>
                 <ul className = {menuActivo ? `Asider-ul` : "Asider-ulHidden"} > 
-                        <li className='Asider-li Asider-isActive'>Home</li>
-                        <li className='Asider-li'>Sobre mi</li>
-                        <li className='Asider-li'>Portafolio</li>
-                        <li className='Asider-li'>Contacto</li>
+                        <li className='Asider-li Asider-isActive'><Link to="hero" spy={true} smooth={true} offset={0} duration={500}>Home</Link></li>
+                        <li className='Asider-li'><Link to="aboutMe" spy={true} smooth={true} offset={50} duration={500} >Sobre mi</Link></li>
+                        <li className='Asider-li'><Link to="portafolio" spy={true} smooth={true} offset={50} duration={500} >Portafolio</Link></li>
+                        <li className='Asider-li'><Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contacto</Link></li>
                 </ul>
             </div>
            
