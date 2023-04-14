@@ -1,0 +1,79 @@
+[
+    {
+        "id":0,
+        "title":" Sitio Regatelecom ",
+        "info":"Desarrollo Frontend para la empresa RegaTelecom, dedicada al servicio de telecomunicaciones, en esta plataforma los clientes puedenver el estus de su servicio, realizar pagos de su factura, generar tickets de soporte.",
+        "cliente":"Jesús Reyes",
+        "industry":"Telecomunicaciones",
+        "technologies":"HTML5,CSS3-SASS,REACT JS,Redux toolkit,Strapi,react router dom v6,Axios",
+        "date":"14/12/2022",
+        "url":"https://regatelecom.mx/",
+        "urlImg":"./img/regatelecom.png"
+    },
+    {
+        "id":1,
+        "title":"Sitio Oficial Axioma",
+        "info":"Se desarrollo Sitio Web, para la Startup Axioma Network, empresa donde colabore como freelancer",
+        "cliente":"Mónica López",
+        "industry":"Tecnologías TI",
+        "technologies":"HTML5,CSS3-SASS,REACT JS",
+        "date":"11/03/2022",
+        "url":"http://axioma.network/",
+        "urlImg":"./img/axioma.png"
+    },
+    {
+        "id":2,
+        "title":" Plataforma CRM Regatelecom",
+        "info":"Se desarrollo una plataforma donde la empresa Regatelecom tiene acceso a un dashboard para gestionar sus clientes, proveedores,soprte y almacen, en el tambien tienen acceso a informes.",
+        "cliente":"Jesús Reyes",
+        "industry":"Telecomunicaciones",
+        "technologies":"HTML5,CSS3-SASS,REACT JS,Redux toolkit,Strapi,react router dom v6,Axios",
+        "date":"20/04/2023",
+        "url":"",
+        "urlImg":"./img/crmRegaTelecom.png"
+    },
+    {
+        "id":3,
+        "title":"Lorem ipsum dolor sit ",
+        "info":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae esse veniam ab sequi vero atque beatae.",
+        "cliente":"Lorem ipsum",
+        "industry":"LRecusandae esse",
+        "technologies":"HTML5,CSS3-SASS,REACT JS",
+        "date":"00/00/00",
+        "url":"",
+        "urlImg":""
+    },
+    {
+        "id":4,
+        "title":"Lorem ipsum dolor sit ",
+        "info":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae esse veniam ab sequi vero atque beatae.",
+        "cliente":"Lorem ipsum",
+        "industry":"LRecusandae esse",
+        "technologies":"HTML5,CSS3-SASS,REACT JS",
+        "date":"00/00/00",
+        "url":"",
+        "urlImg":""
+    },
+    {
+        "id":5,
+        "title":" Sitio Web FB Arquitectos ",
+        "info":" El sitio web FB Arquitectos lo diseñe utilizando Figma y desarrollo utilizando React JS, toda la maquetacion esta hecha con SASS.",
+        "cliente":"Fernanndo Bautista",
+        "industry":"Construcion y Arquitectura",
+        "technologies":"HTML5,CSS3-SASS,REACT JS",
+        "date":"03/06/2022",
+        "url":"https://www.fb-arquitectos.com/",
+        "urlImg":"./img/fbarquitectos.png"
+    },
+    {
+        "id":6,
+        "title":"Sitio Oficial Trotatourism",
+        "info":"Desarrollo web para Agencia de viajes Trotatourism, se desarrollo este sitio colaborando con la empresa Axioma Network, el cual se solicito conectar con CRM, esta hecho con el framework React js",
+        "cliente":"Mónica López",
+        "industry":"Turismo",
+        "technologies":"HTML5,CSS3-SASS,REACT JS",
+        "date":"01/10/2022",
+        "url":"http://trotatourism.com/",
+        "urlImg":"./img/trotta.png"
+    }
+]

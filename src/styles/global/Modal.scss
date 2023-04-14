@@ -1,0 +1,98 @@
+.hidden {
+    display: none;
+}
+.Modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 2, 2,0.5);
+    position:fixed;    
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    padding: 5rem 0;
+}
+
+.Modal-content {
+    width: 80%;
+    background-color: rgb(68, 68, 68);
+    padding: 1.5rem;
+    color: #fff;
+    text-align: justify;
+}
+
+.Modal-close {
+    font-size: 20px;
+    color: rgb(184, 8, 8);
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 6rem;
+}
+.Modal-h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.Modal-h3 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.Modal-info {
+    width: 100%;
+}
+
+
+.Modal-gallery {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Modal-text {
+    width: 100%;
+}
+
+.Modal-projectInfo {
+    margin-bottom: 1rem;
+}
+
+.Modal-projectDetails {}
+
+.Modal-p {
+    font-size: 14px;
+    color: rgb(154, 153, 153);
+}
+
+.Modal-h5 {}
+
+.Modal-DetailsTopics {}
+
+.Modal-red {
+    color: rgb(184, 8, 8);
+} 
+
+@include breakpoint('medium-tablet') {
+    .Modal-info {
+        display: flex;
+    }
+    .Modal{
+        overflow-y: hidden;
+    }
+    .Modal-close {
+        margin-top: 0rem;
+    }
+    .Modal-gallery {
+        margin-right: 1.5rem;
+        width: 50%;
+    }
+    .Modal-text {
+        width: 50%;
+    }
+}

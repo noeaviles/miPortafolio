@@ -16,14 +16,14 @@ const Asider = () => {
                 <div className='Asider-info' >
                     <div className='Asider-logo'>
                         <div className='Asider-picture'></div>
-                        <h1 className='Asider-title'>NOE AVILES</h1>
+                        <h1 className='Asider-title'>Noé Aviles</h1>
                     </div> 
 
                 </div>
 
                 <div className="Asider-socialMedia">
-                        <a href=""><div className='Asider-icono'><i className="fa-brands fa-linkedin"></i></div></a>
-                        <a href=""><div className='Asider-icono'><i className="fa-brands fa-github"></i></div></a>
+                        <a href="https://www.linkedin.com/in/noe-alexander-aviles-pacheco-6791a61b8/"><div className='Asider-icono'><i className="fa-brands fa-linkedin"></i></div></a>
+                        <a href="https://github.com/noeaviles"><div className='Asider-icono'><i className="fa-brands fa-github"></i></div></a>
                 </div>
 
                 <nav className='Asider-nav'>

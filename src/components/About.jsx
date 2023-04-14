@@ -20,8 +20,9 @@ const About = () => {
           <div className="About-content">
           <div className="About-description">
             <h3 className='About-name'>Soy <span className='About-red'>Noe Aviles</span> un fronted developer</h3>
-            <p className='About-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae esse veniam ab sequi vero atque beatae. Magni a neque qui cum dolore nisi debitis eius at, tempora consequuntur harum facilis!</p>
-            <p className='About-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laudantium in aspernatur quibusdam minus at exercitationem aliquam sapiente eligendi nihil, </p>
+            <p className='About-p'>Apasionado por la tecnología y el desarrollo web, me encanta crear aplicaciones que tengan un impacto positivo en la vida de las personas.</p>
+            <p className='About-p'>Siempre estoy en constante aprendizaje y me considero una persona autodidacta, ya que las tecnologías y las tendencias están en constante cambio. Por ello, me encanta estar actualizado y aprender nuevas habilidades para poder aplicarlas en mis proyectos.</p>
+            <p className='About-p'>Me motiva mucho colaborar en proyectos desafiantes que me permitan aplicar mis habilidades y trabajar con otros desarrolladores que tengan diferentes perspectivas, ya que esto me permite seguir creciendo como persona y profesional.</p>
           </div>
           <div className='About-personalInfo'>
             <p><span className='About-red'>Correo:</span> noe.alexander.aviles@gmail.com</p>

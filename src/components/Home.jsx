@@ -6,17 +6,24 @@ import Footer from './Footer'
 import Header from './Header'
 import Portafolio from './Portafolio'
 import RiseLoader from "react-spinners/RiseLoader";
+import ModalPortafolio from './ModalPortafolio'
 
 const Home = () => {
   const [loanding,setLoandig] = useState(false);
+  const [activeModal,setActiveModal] = useState(false);
+  const [id,setId] = useState();
 
   useEffect( () =>{
     setLoandig(true);
     setTimeout( () =>{
       setLoandig(false);
     }, 2000 )
-
   },[] )
+
+  const handleModal = (id) =>{
+    setActiveModal(!activeModal);
+    setId(id);
+  }
   
   return (
     <>
@@ -28,16 +35,18 @@ const Home = () => {
       </div>
       :
       <div className='Home'>
-        <Asider/>
-        <main className='Home-main'>
+          <Asider/>
+          <main className='Home-main'>
           <Header/>
           <About/>
-          <Portafolio/>
+          <Portafolio handleModal={handleModal}/>
           <Contact/>
           <Footer/>
         </main>
+        <ModalPortafolio activeModal={activeModal} handleModal={handleModal} id={id}/>
       </div>
     }
+    
 
     </>
     

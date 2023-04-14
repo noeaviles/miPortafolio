@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    p {
+        -webkit-text-stroke: 1px black;
+    }
 }
 
 .Slider-welcome {
