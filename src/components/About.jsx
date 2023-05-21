@@ -14,7 +14,6 @@ import photoshop from '../assets/photoshop.png'
 const About = () => {
   return (
     <div className='About' id="aboutMe">
-
       <div className="About-text">
           <h2 className="About-titulo">Acerca de mi</h2>
           <div className="About-content">
@@ -26,7 +25,7 @@ const About = () => {
           </div>
           <div className='About-personalInfo'>
             <p><span className='About-red'>Correo:</span> noe.alexander.aviles@gmail.com</p>
-            <div className="About-btn">Download CV</div>
+            <a href='https://drive.google.com/file/d/1pdDrjtikv2EBMsAp7fRFBYt8FmaqnYO6/view?usp=sharing' Target="_blank"><div className="About-btn">Download CV</div></a>
           </div>
           </div>
       </div>

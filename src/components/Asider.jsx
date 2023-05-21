@@ -22,8 +22,8 @@ const Asider = () => {
                 </div>
 
                 <div className="Asider-socialMedia">
-                        <a href="https://www.linkedin.com/in/noe-alexander-aviles-pacheco-6791a61b8/"><div className='Asider-icono'><i className="fa-brands fa-linkedin"></i></div></a>
-                        <a href="https://github.com/noeaviles"><div className='Asider-icono'><i className="fa-brands fa-github"></i></div></a>
+                        <a href="https://www.linkedin.com/in/noe-alexander-aviles-pacheco-6791a61b8/" Target="_blank"><div className='Asider-icono'><i className="fa-brands fa-linkedin"></i></div></a>
+                        <a href="https://github.com/noeaviles" Target="_blank"><div className='Asider-icono'><i className="fa-brands fa-github"></i></div></a>
                 </div>
 
                 <nav className='Asider-nav'>
